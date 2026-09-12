@@ -123,7 +123,7 @@
 
 		<!-- Retro Footer Info -->
 		<div class="border-t border-white/10 pt-3 text-center text-[10px] text-zinc-500">
-			XBOX 360™ • COMPATIBLE CON XBOX LIVE • ARCHIVO HISTÓRICO
+			XBOX 360™ • COMPATIBLE CON XBOX LIVE • POR FABIAN BALDERRAMA
 		</div>
 	</div>
 </aside>

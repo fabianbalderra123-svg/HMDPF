@@ -178,8 +178,10 @@
 		<span class="text-zinc-400">Mueve el cursor para deformar el universo 3D</span>
 	</div>
 
-	<!-- Generation Archival Stamp -->
-	<div class="rounded-full border border-white/5 bg-black/40 px-3.5 py-1.5 text-[10px] tracking-widest text-zinc-500 uppercase backdrop-blur-sm">
-		GENERACIÓN 7 • SISTEMA XBOX LIVE • 2005 - 2013
+	<!-- Generation Archival Stamp & Author Credit -->
+	<div class="pointer-events-auto flex items-center gap-2.5 rounded-full border border-emerald-500/20 bg-zinc-950/80 px-4 py-1.5 text-[10px] tracking-wider text-zinc-400 backdrop-blur-md shadow-lg">
+		<span class="text-zinc-500 uppercase">GENERACIÓN 7 • 2005 - 2013</span>
+		<span class="text-emerald-500/50">•</span>
+		<span class="font-semibold text-emerald-400">Por Fabian Balderrama</span>
 	</div>
 </footer>
