@@ -1,33 +1,35 @@
 @import 'tailwindcss';
 
-@theme {
-	--font-sans:
-		'Instrument Sans', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji';
-	--color-ink: #0f172a;
-	--color-muted: #64748b;
-	--color-line: #e2e8f0;
-	--color-surface: #ffffff;
-	--color-canvas: #f6f7f9;
-	--color-brand: #0f766e;
-	--color-brand-hover: #0d5f59;
-	--color-danger: #b42318;
-}
-
 html,
 body {
-	min-height: 100%;
-}
-
-body {
 	margin: 0;
-	background-color: var(--color-canvas);
-	color: var(--color-ink);
-	font-family: var(--font-sans);
-	-webkit-font-smoothing: antialiased;
-	text-rendering: optimizeLegibility;
+	height: 100%;
+	background: #050705;
+	color: #eee;
+	font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+	overflow: hidden;
 }
 
-:focus-visible {
-	outline: 2px solid var(--color-brand);
-	outline-offset: 2px;
+/* Custom Xbox Neon Scrollbars */
+::-webkit-scrollbar {
+	width: 6px;
+	height: 6px;
+}
+
+::-webkit-scrollbar-track {
+	background: rgba(0, 0, 0, 0.4);
+}
+
+::-webkit-scrollbar-thumb {
+	background: #107c10;
+	border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+	background: #52c41a;
+}
+
+::selection {
+	background: #107c10;
+	color: #ffffff;
 }
